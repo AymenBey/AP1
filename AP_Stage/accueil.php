@@ -118,7 +118,7 @@
         <ul>
             <?php
             try {
-                // Connexion à la base de données
+                // Connexion à la base de données !
                 $pdo = new PDO("mysql:host=localhost;dbname=apstage", "root", "root");
                 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
